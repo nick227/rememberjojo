@@ -4,9 +4,8 @@ var app = {
 	 	start:function(){
 			background.preload.then(function(){
 				background.start();
-				turtle.start();
-				preloader.hide();
 		  	});
+			turtle.start();
 	 	}
 	 };
 /*******************************************/
@@ -30,6 +29,7 @@ background.preload = new Promise(function(resolve, reject){
 		var imgPath = background.path + '/' + background.images[i];
 		new Image().src = imgPath;
 	});
+	preloader.hide();
 	resolve();
 });
 /*******************************************/
@@ -76,8 +76,9 @@ turtle.start = function(){
 	newImg.addEventListener('load', function(){
 		if(!started){
 			started = true;
+			preloader.hide();
 			turtle.blink();
-				turtle.reposition();
+			turtle.reposition();
 		}
 	});
 	var imgPath = this.imgPath;
@@ -114,7 +115,7 @@ turtle.reposition = function(){
 			elm.style.marginLeft = marginLeft+'px';
 			elm.style.marginTop = marginTop+'px';
 		}
-	setInterval(move, Math.floor(Math.random() * 20000) + 5000);
+	setInterval(move, Math.floor(Math.random() * 20000) + 2000);
 }
 /*******************************************/
 window.addEventListener("load", app.start, false);

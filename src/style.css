@@ -4,7 +4,7 @@ html, body{
 	height:100%;
 	margin:0;padding: 0;
 	background-color: #000000;
-	background-image:url("images/space-640.png");
+	background-image:url("../images/space-640.png");
 	font-size:110%;
 	font-family:sans-serif;
 }
@@ -100,7 +100,7 @@ ul.messages{
     animation-name: pulsate;
     animation-duration: 600s;
     animation-iteration-count:infinite;
-	transition: all 0.5s ease;
+	transition: all 40s ease;
 }
 #turtle img{
     animation-name: fly;
