@@ -21,11 +21,13 @@
 <li>OCULAR PATDOWN... <span>COMPLETE</span></li>
 </ul>
 </div>
-<div id="background"></div>
+<div id="background"> 
+</div>
 <div class="container"> 
 	<div id="turtle"></div>
 </div>
 
+<a id="twitter" href="https://twitter.com/webdevg" target="_blank"><img src="images/twitter.png" /></a>
         <script src="src/main.js"></script>
 </body>
 </html>    

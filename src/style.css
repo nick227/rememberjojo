@@ -47,6 +47,17 @@ ul.messages{
     animation-delay: 2.3s;
     color:red;
 }
+#twitter{
+	position: absolute;
+	bottom:15px;
+	left:30px;
+	z-index:1111;
+	opacity:0;
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+    animation-duration: 30s;
+    animation-delay: 5s;
+}
 #background{
 	background-color: #000000;
 	background-repeat:no-repeat;
