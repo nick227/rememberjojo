@@ -18,7 +18,7 @@ html, body{
     animation-name: vanish;
     animation-fill-mode: forwards;
     animation-duration: 1s;
-    animation-delay: 2.3s;
+    animation-delay: 2s;
 }
 ul.messages{
 	line-height:50px;
