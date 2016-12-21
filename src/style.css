@@ -18,7 +18,7 @@ html, body{
     animation-name: vanish;
     animation-fill-mode: forwards;
     animation-duration: 1s;
-    animation-delay: 3s;
+    animation-delay: 2.3s;
 }
 ul.messages{
 	line-height:50px;
@@ -36,19 +36,6 @@ ul.messages{
     animation-fill-mode: forwards;
     animation-duration: .2s;
     animation-delay: 1s;
-}
-.messages li:nth-child(3){
-    animation-name: fadein;
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
-    animation-delay: 2s;
-}
-.messages li:nth-child(3) span{
-    animation-name: fadein;
-    animation-fill-mode: forwards;
-    animation-duration: .2s;
-    animation-delay: 2.3s;
-    color:red;
 }
 #background{
 	background-color: #000000;

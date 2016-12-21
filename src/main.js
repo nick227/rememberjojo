@@ -106,7 +106,7 @@ turtle.reposition = function(){
 			elm.style.marginLeft = marginLeft+'px';
 			elm.style.marginTop = marginTop+'px';
 		}
-	setInterval(move, Math.floor(Math.random() * 16000) + 5000);
+	setInterval(move, Math.floor(Math.random() * 20000) + 5000);
 }
 /*******************************************/
 window.addEventListener("load", app.start, false);

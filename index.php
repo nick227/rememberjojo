@@ -17,8 +17,7 @@
 <div id="preloader"> 
 <ul class="messages"> 
 <li>Finding Mothership...</li>
-<li>Contacting Lord Zolo...</li>
-<li>OCULAR PATDOWN... <span>COMPLETE</span></li>
+<li>OCULAR PATDOWN... COMPLETE</li>
 </ul>
 </div>
 <div id="background"></div>
