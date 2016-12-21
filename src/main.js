@@ -18,7 +18,7 @@ var preloader = {
 /*******************************************/
 var background = {
 	images:['Sequence1.png','Sequence2.png','Sequence3.png','Sequence4.png','Sequence5.png','Sequence6.png','Sequence7.png','Sequence8.png','Sequence9.png','Sequence10.png','Sequence11.png','Sequence12.png','Sequence0.png'],
-	path:'./images',
+	path:'./images/960',
 	timeout:3333,
 	elmId:'background',
 	elm:{}
@@ -75,10 +75,10 @@ turtle.start = function(){
 	var started = false;
 	newImg.addEventListener('load', function(){
 		if(!started){
-			started = true;
 			preloader.hide();
 			turtle.blink();
 			turtle.reposition();
+			started = true;
 		}
 	});
 	var imgPath = this.imgPath;
