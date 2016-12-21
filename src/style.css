@@ -17,6 +17,7 @@ html, body{
 	background-color:black;
 	color:#fff;
     animation-fill-mode: forwards;
+    animation-delay: 2s;
 }
 ul.messages{
 	line-height:50px;
@@ -60,12 +61,10 @@ ul.messages{
     animation-delay: 1s;
 }
 #background{
-	background-color: #000000;
-	background-repeat:no-repeat;
-	background-image:url("images/space-640.png");
-	background-size:cover;
 	width:100%;
 	height:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
     animation-name: pulsate;
     animation-duration: 160s;
     animation-iteration-count:infinite;
