@@ -8,6 +8,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/jpeg" href="images/sunny-icon-33.jpg" />
         <link type="text/css" rel="stylesheet" href="src/style.css" />
+        <meta property="og:image" content="https://rememberjojo.herokuapp.com/images/preview.png" />
+
     </head>
 <body>
 <style type="text/css">
