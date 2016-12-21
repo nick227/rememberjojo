@@ -49,14 +49,15 @@ ul.messages{
 }
 #twitter{
 	position: absolute;
-	bottom:15px;
-	left:30px;
+	bottom:10px;
+	left:10px;
 	z-index:1111;
 	opacity:0;
+	z-index:1;
     animation-name: fadein;
     animation-fill-mode: forwards;
     animation-duration: 30s;
-    animation-delay: 5s;
+    animation-delay: 1s;
 }
 #background{
 	background-color: #000000;
