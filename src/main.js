@@ -30,8 +30,6 @@ var background = {
 };
 /*******************************************/
 background.preload = new Promise(function(resolve, reject){
-	console.log("");
-	//if(document.documentElement.clientWidth < 960){background.path += '/960'}
 	background.images.forEach(function(item, i){
 		var imgPath = background.path + '/' + background.images[i];
 		new Image().src = imgPath;
