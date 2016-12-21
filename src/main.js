@@ -5,9 +5,17 @@ var app = {
 			background.preload.then(function(){
 				background.start();
 				turtle.start();
+				preloader.hide();
 		  	});
 	 	}
 	 };
+/*******************************************/
+var preloader = {
+	hide:function(){
+		var elm = document.getElementById('preloader');
+		elm.classList.add('vanish');
+	}
+};
 /*******************************************/
 var background = {
 	images:['Sequence1.png','Sequence2.png','Sequence3.png','Sequence4.png','Sequence5.png','Sequence6.png','Sequence7.png','Sequence8.png','Sequence9.png','Sequence10.png','Sequence11.png','Sequence12.png','Sequence0.png'],

@@ -15,10 +15,7 @@ html, body{
 	height:100%;
 	background-color:black;
 	color:#fff;
-    animation-name: vanish;
     animation-fill-mode: forwards;
-    animation-duration: 1s;
-    animation-delay: 4s;
 }
 ul.messages{
 	line-height:50px;
