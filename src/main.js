@@ -29,7 +29,6 @@ background.preload = new Promise(function(resolve, reject){
 		var imgPath = background.path + '/' + background.images[i];
 		new Image().src = imgPath;
 	});
-	preloader.hide();
 	resolve();
 });
 /*******************************************/
@@ -39,6 +38,7 @@ background.start = function(){
 	var startPoint = Math.floor(Math.random() * len);
 	var currentIndex = null;
 	this.elm = document.getElementById(background.elmId);
+	preloader.hide();
 	background.next(startPoint);
 	var timer = setInterval(function(){
 		currentIndex = typeof currentIndex === 'number' ? currentIndex < len-1 ? parseInt(currentIndex+1) : 0 : startPoint;
