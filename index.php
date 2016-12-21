@@ -9,6 +9,10 @@
         <link rel="icon" type="image/jpeg" href="images/sunny-icon-33.jpg" />
         <link type="text/css" rel="stylesheet" href="src/style.css" />
         <meta property="og:image" content="https://rememberjojo.herokuapp.com/images/preview.png" />
+        <meta property="og:url"                content="https://rememberjojo.herokuapp.com/index.php" />
+		<meta property="og:title"              content="Remember JoJo" />
+		<meta property="og:description"        content="At least he made it to the mothership." />
+
 
     </head>
 <body>
