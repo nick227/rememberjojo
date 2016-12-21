@@ -4,6 +4,8 @@ html, body{
 	margin:0;padding: 0;
 	background-color: #000000;
 	background-image:url("../images/space-640.png");
+	background-repeat:no-repeat;
+	background-size:cover;
 	font-size:109%;
 	font-family:sans-serif;
 }
