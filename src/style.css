@@ -65,7 +65,7 @@ ul.messages{
 	height:100%;
 	background-repeat:no-repeat;
 	background-size:cover;
-    animation-name: pulsate;
+    animation-name: pulsateA;
     animation-duration: 160s;
     animation-iteration-count:infinite;
 	position: fixed;
@@ -96,7 +96,7 @@ ul.messages{
 #turtle{
 	position: fixed;
 	z-index:2;
-    animation-name: pulsate;
+    animation-name: pulsateB;
     animation-duration: 400s;
     animation-iteration-count:infinite;
 	transition: all 40s ease;
@@ -118,9 +118,15 @@ ul.messages{
 	0%{opacity:1;}
 	100%{opacity:0;}
 }
-@keyframes pulsate{
+@keyframes pulsateA{
+	0%{transform:scale(1);}
+	50%{transform:scale(2);}
+	100%{transform:scale(1);}
+}
+@keyframes pulsateB{
 	0%{transform:scale(1);}
 	50%{transform:scale(1.5);}
+	50%{transform:scale(.5);}
 	100%{transform:scale(1);}
 }
 @keyframes fly{

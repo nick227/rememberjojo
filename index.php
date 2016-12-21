@@ -31,6 +31,6 @@
 	<div id="turtle"></div>
 </div>
 <a id="twitter" href="https://twitter.com/webdevg" target="_blank"><img src="images/twitter.png" /></a>
-<script src="src/bundle.js"></script>
+<script src="src/main.js"></script>
 </body>
 </html>    

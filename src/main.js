@@ -23,13 +23,15 @@ var preloader = {
 /*******************************************/
 var background = {
 	images:['Sequence1.png','Sequence2.png','Sequence3.png','Sequence4.png','Sequence5.png','Sequence6.png','Sequence7.png','Sequence8.png','Sequence9.png','Sequence10.png','Sequence11.png','Sequence12.png','Sequence0.png'],
-	path:'./images/960',
+	path:'./images',
 	timeout:3333,
 	elmId:'background',
 	elm:{}
 };
 /*******************************************/
 background.preload = new Promise(function(resolve, reject){
+	console.log("");
+	//if(document.documentElement.clientWidth < 960){background.path += '/960'}
 	background.images.forEach(function(item, i){
 		var imgPath = background.path + '/' + background.images[i];
 		new Image().src = imgPath;
